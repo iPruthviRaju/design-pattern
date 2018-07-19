@@ -1,0 +1,6 @@
+C:\Users\pkalidindi\OneDrive - Infor\Pruthvi\git-repos\design-pattern\1-creational\5-singleton\0001_First_Singleton\0001_First_Singleton\bin\Debug\0001_First_Singleton.exe.config
+C:\Users\pkalidindi\OneDrive - Infor\Pruthvi\git-repos\design-pattern\1-creational\5-singleton\0001_First_Singleton\0001_First_Singleton\bin\Debug\0001_First_Singleton.exe
+C:\Users\pkalidindi\OneDrive - Infor\Pruthvi\git-repos\design-pattern\1-creational\5-singleton\0001_First_Singleton\0001_First_Singleton\bin\Debug\0001_First_Singleton.pdb
+C:\Users\pkalidindi\OneDrive - Infor\Pruthvi\git-repos\design-pattern\1-creational\5-singleton\0001_First_Singleton\0001_First_Singleton\obj\Debug\0001_First_Singleton.csprojResolveAssemblyReference.cache
+C:\Users\pkalidindi\OneDrive - Infor\Pruthvi\git-repos\design-pattern\1-creational\5-singleton\0001_First_Singleton\0001_First_Singleton\obj\Debug\0001_First_Singleton.exe
+C:\Users\pkalidindi\OneDrive - Infor\Pruthvi\git-repos\design-pattern\1-creational\5-singleton\0001_First_Singleton\0001_First_Singleton\obj\Debug\0001_First_Singleton.pdb

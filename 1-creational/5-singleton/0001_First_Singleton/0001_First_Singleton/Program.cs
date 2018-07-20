@@ -10,13 +10,23 @@ namespace _0001_First_Singleton
     {
         static void Main(string[] args)
         {
-            Singleton fromEmployee = Singleton.Instance;
-            fromEmployee.PrintDetails("Hi I'm employee..");
-
-            Singleton fromAdmin = Singleton.Instance;
-            fromAdmin.PrintDetails("Hi I'm admin..");
+            Parallel.Invoke(() => PrintEmployeeDetails(), () => PrintAdminDetails());
+            //PrintEmployeeDetails();
+            //PrintAdminDetails();
 
             Console.ReadLine();
+        }
+
+        private static void PrintAdminDetails()
+        {
+            Singleton fromAdmin = Singleton.Instance;
+            fromAdmin.PrintDetails("Hi I'm admin..");
+        }
+
+        private static void PrintEmployeeDetails()
+        {
+            Singleton fromEmployee = Singleton.Instance;
+            fromEmployee.PrintDetails("Hi I'm employee..");
         }
     }
 }

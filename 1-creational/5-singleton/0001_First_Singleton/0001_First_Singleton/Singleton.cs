@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _0001_First_Singleton
 {
-    public class Singleton
+    public sealed class Singleton
     {
         private static int _counter = 0;
 

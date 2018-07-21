@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// file:	singleton.cs
+//
+// summary:	Implements the singleton class
+
+using System;
 
 namespace _0001_First_Singleton
 {
@@ -13,7 +13,6 @@ namespace _0001_First_Singleton
         private static Singleton _instance = null;
 
         private static readonly object obj = new object();
-
 
         public static Singleton Instance
         {

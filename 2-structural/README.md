@@ -1,0 +1,1 @@
+Any notes with regards to structural design patterns will fall here.

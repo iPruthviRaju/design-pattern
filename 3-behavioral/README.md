@@ -1,0 +1,1 @@
+Any notes with regards to behavioral design patterns will fall here.

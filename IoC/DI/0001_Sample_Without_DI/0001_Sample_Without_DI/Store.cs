@@ -10,17 +10,19 @@ namespace _0001_Sample_Without_DI
     public class Store
     {
         public string MobileName { get; set; }
-        private Samsung samsung = new Samsung();
-        private iPhone iphone = new iPhone();
+        private Samsung samsung;
+        private iPhone iphone;
 
         public void Buy()
         {
             if (MobileName == "Samsung")
             {
+                samsung = new Samsung();
                 samsung.Buy();
             }
             else if(MobileName == "iPhone")
             {
+                iphone = new iPhone();
                 iphone.Buy();
             }
         }

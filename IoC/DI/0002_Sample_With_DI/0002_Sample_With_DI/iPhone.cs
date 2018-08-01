@@ -10,9 +10,9 @@ namespace _0002_Sample_With_DI
     using System;
     public class iPhone : IMobile
     {
-        public void Buy()
+        public void Buy(string model)
         {
-            Console.WriteLine("Bought iPhone!");
+            Console.WriteLine($"Bought iPhone {model}");
         }
 
         public void Exchange()

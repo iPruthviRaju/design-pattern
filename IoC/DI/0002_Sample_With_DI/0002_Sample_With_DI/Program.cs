@@ -12,11 +12,10 @@ namespace _0002_Sample_With_DI
     {
         static void Main(string[] args)
         {
-            Store store = new Store()
-            {
-                MobileName = "Samsung"
-            };
-            store.Buy();
+            var inputMobile = "Samsung";
+            var inputModel = "Galaxy S9";
+
+            Processor.Start(mobile: inputMobile, model: inputModel);
 
             Console.ReadLine();
         }

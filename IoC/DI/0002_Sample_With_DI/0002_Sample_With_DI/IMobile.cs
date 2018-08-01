@@ -9,7 +9,7 @@ namespace _0002_Sample_With_DI
 {
     public interface IMobile
     {
-        void Buy();
+        void Buy(string model);
         void Service();
         void Exchange();
     }

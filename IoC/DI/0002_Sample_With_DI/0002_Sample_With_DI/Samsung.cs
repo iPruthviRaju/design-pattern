@@ -11,9 +11,9 @@ namespace _0002_Sample_With_DI
 
     public class Samsung : IMobile
     {
-        public void Buy()
+        public void Buy(string model)
         {
-            Console.WriteLine("Bought Samsung!");
+            Console.WriteLine($"Bought Samsung {model}!");
         }
 
         public void Exchange()

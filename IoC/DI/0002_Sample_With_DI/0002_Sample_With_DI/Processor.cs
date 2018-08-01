@@ -15,6 +15,7 @@ namespace _0002_Sample_With_DI
             IUnityContainer container = new UnityContainer();
 
             container.RegisterType<Store>();
+
             switch (mobile)
             {
                 case "Samsung":

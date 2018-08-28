@@ -1,0 +1,1 @@
+Match interfaces of different classes

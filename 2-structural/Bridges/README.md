@@ -1,0 +1,1 @@
+Separates an object’s interface from its implementation
